@@ -102,3 +102,33 @@ dist
 
 # TernJS port file
 .tern-port
+
+
+# Build Path of Test Fixtures
+test/**/public
+.gatsby-context.js
+.DS_Store
+public/
+node_modules/
+e2e-tests/gatsby-pnp/
+.cache/
+.netlify
+.Rhistory
+
+# IDE specific
+.idea/
+.vscode/
+*.sw*
+
+# lock files
+yarn.lock
+package-lock.json
+# ignore any lock file other than main lock file
+!/yarn.lock
+
+# starters are special; we want to persist the lock files
+!starters/*/package-lock.json
+!themes/gatsby-starter-blog-theme/package-lock.json
+!themes/gatsby-starter-notes-theme/package-lock.json
+!themes/gatsby-starter-theme/package-lock.json
+!themes/gatsby-starter-theme-workspace/package-lock.json
