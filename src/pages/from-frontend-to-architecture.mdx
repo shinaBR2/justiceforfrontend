@@ -1,5 +1,7 @@
-import { Head, Notes } from "mdx-deck";
-import { themes } from "mdx-deck";
+import { Head, Notes } from "mdx-deck"
+import { themes } from "mdx-deck"
+
+export const theme = themes.comic
 
 <Head>
   <title>From frontend developers to Architecture</title>
@@ -38,45 +40,78 @@ import { themes } from "mdx-deck";
 
 👨‍💻 @ShinaBR2
 
-Jan 27, 2021<br/>
+#JusticeForFrontend - Jan 27, 2021<br/>
 
 ---
 
-# Why this talk
+# Why this talk?
 
-- FE nowadays is not like before with it has itself architecture
-- No meaning for old monolith architecture
+<Steps>
 
----
+  - "Frontend" nowadays is totally a different ecosystem since:
+    + NodeJS (2009) => modularity
+    + GraphQL (2015) => new whole ecosystem and architecture like [3factor app](https://3factor.app/)
 
-# Main points
+  - Rising of microservices and mobile devices
 
----
+  - 👏👏👏 [When frontend means full stack](https://increment.com/frontend/when-frontend-means-full-stack/) by [Chris Coyier](https://chriscoyier.net/)
 
-## Feature based on User Requirements
-
-FE developers are the man who understand how to make features. Some real use cases:
-
-- Do we need a real web server nowadays?
-- API calling: REST or GraphQL? Data composition
+</Steps>
 
 ---
 
-## Error Detection
-
-FE developers should be the first one who find out the root cause of problems reported by end users. Some real use cases:
-
-- Co-operate with designer to have some ways to collect the user feedback. Is that solution doable?
-- Logging solution: Users report some generic issue => check Sentry => find the root cause
+# Why Frontend Developers
+# need to understand architecture?
 
 ---
 
-## Integration
+## 1. Feature based on User Requirements
 
-Better solutions for integration. FE should understanding how hard problem is on the backend side. Some real use cases:
+Development process always comes from UI.
 
-- Changes on API request/response to adapt some frontend changes.
+<Steps>
+
+- Web server? No, we don't need for [Jamstack sites](https://jamstack.org/)
+
+-  👉 **Data composition** on client side or server side?
+
+</Steps>
 
 ---
 
-## End
+
+## 2. Error Detection
+
+Starting investigate end users BUGs should be from frontend side.
+
+<Steps>
+
+- First, must have a way to get feedback on UI
+
+- Then, error reporting integration
+
+</Steps>
+
+---
+
+## 3. Integration
+
+Integration is not a war. Main real problem:
+
+- Changes on API to adapt UI
+
+---
+
+## Thanks!
+
+https://github.com/shinaBR2/JusticeForFrontend
+
+---
+
+## References
+
+- https://graphql.org/
+- https://3factor.app/
+- https://jamstack.org/
+- https://www.gatsbyjs.com/
+- https://github.com/jxnblk/mdx-deck
