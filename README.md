@@ -2,7 +2,7 @@
 
 This is the first talk in series about #JusticeForFrontend.
 
-Listen [this talk on Youtube](https://youtu.be/e7sJPVSPzf0), the slide is hosted on [Netlify](https://justiceforfrontend.netlify.app/#0)
+Listen [this talk on Youtube](https://youtu.be/e7sJPVSPzf0), the slide is hosted on [Netlify](https://justiceforfrontend.netlify.app/#0).
 
 # Inspiration by
 
